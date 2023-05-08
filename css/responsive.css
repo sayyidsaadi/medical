@@ -1436,6 +1436,13 @@
   .banner_img img {
     height: 500px;
   }
+  .banner_topt_ext {
+    position: absolute;
+    z-index: 99;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+  }
   #about_part {
     padding: 60px 0px;
   }

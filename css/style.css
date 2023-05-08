@@ -128,23 +128,22 @@ ol {
   left: 0;
   background: rgba(0, 0, 0, 0.5);
 }
+
 .banner_topt_ext {
-  position: relative;
-  z-index: 99;
-}
-.banner_text {
   position: absolute;
-  top: 0;
-  right: 126px;
-  color: #fff;
-  padding: 130px 0px;
+  z-index: 99;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
 }
+
 .banner_topt_ext h2 {
   font-family: "Raleway", sans-serif;
   font-size: 56px;
   font-weight: bold;
   color: #fff;
   text-transform: uppercase;
+  display: inline-flex;
 }
 .banner_topt_ext h3 {
   font-family: "Raleway", sans-serif;
