@@ -112,7 +112,8 @@ ol {
   position: relative;
 }
 .banner_img img {
-  height: 500px;
+  height: 713px;
+  width: 100%;
   object-fit: cover;
 }
 .banner_bg {

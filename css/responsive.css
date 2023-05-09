@@ -28,10 +28,6 @@
     padding-bottom: 45px;
   }
 
-  .banner_img img {
-    height: 400px;
-    object-fit: cover;
-  }
   #home_icon {
     top: 258px;
     right: 37px;
@@ -347,6 +343,11 @@
     font-size: 14px;
     padding: 5px 0px 10px 0px;
   }
+  .banner_img img {
+    height: 200px;
+    width: 100%;
+    /* object-fit: cover; */
+  }
 }
 @media (min-width: 320px) and (max-width: 362) {
   .futures_icon3 {
@@ -450,7 +451,9 @@
   }
 
   .banner_img img {
-    height: 400px;
+    height: 285px;
+    width: 100%;
+    /* object-fit: cover; */
   }
 
   .apple a {
@@ -784,7 +787,9 @@
   }
 
   .banner_img img {
-    height: 480px;
+    height: 340px;
+    width: 100%;
+    /* object-fit: cover; */
   }
 
   .apple a {
@@ -1136,7 +1141,9 @@
   }
 
   .banner_img img {
-    height: 530px;
+    height: 450px;
+    width: 100%;
+    /* object-fit: cover; */
   }
 
   .apple a {
@@ -1434,7 +1441,9 @@
     padding-left: 54%;
   }
   .banner_img img {
-    height: 500px;
+    height: 550px;
+    width: 100%;
+    /* object-fit: cover; */
   }
   .banner_topt_ext {
     position: absolute;
